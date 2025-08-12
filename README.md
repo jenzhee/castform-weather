@@ -1,6 +1,6 @@
 # Castform Weather
 
-A cute Pokémon-themed weather widget built with HTML, CSS, JavaScript, and Tauri.  
+A cute Pokémon-themed weather widget built with HTML, CSS, JavaScript, Rust, and Tauri.  
 Displays hourly weather data of the user's location, and updates the central Pokémon image and tips based on current conditions.
 
 ## Features
