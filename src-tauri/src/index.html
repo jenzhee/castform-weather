@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">    
+<head>
+    <title>Castform Weather</title>
+    <meta charset="UTF-8">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <!-- dekko google font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dekko&family=Syne+Mono&display=swap" rel="stylesheet">    
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="widget">
+    
+    <div class="cloud top-left temp">
+      <img src="images/tempcloud.png" alt="Temperature Cloud" />
+      <span id="temperature">75°</span>
+    </div>
+
+    <img id="castform-img" src="images/cloudy.png" alt="Castform" class="castform"/>
+
+    <div class="info-box">
+      <p id="description" class="weather-description">It is currently partly cloudy!</p>
+      <small id="tip" class="weather-tip">Castform recommends you bring a coat today.</small>
+    </div>
+
+    <div class="cloud bottom-right toggle-cf">
+      <img class= "cloud-img" src="images/togglecloud.png" alt="Toggle Cloud" />
+      <div class="cloud-buttons">
+        <button id="toC" class="C-togglebutton"></button> <!--C-->
+        <button id="toF" class="F-togglebutton"></button> <!--F-->
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
